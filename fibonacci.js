@@ -1,9 +1,10 @@
-let num1 = 0
-let num2 = 1
-let num3 = 0
 let num4 = 610
 
 const fibonacci = function (n) {
+    let num1 = 0
+    let num2 = 1
+    let num3 = 0
+
     for (; num3 < n;) {
         num3 = num1 + num2
         num1 = num2
